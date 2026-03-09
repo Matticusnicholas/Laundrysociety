@@ -225,44 +225,17 @@ a {
     line-height: 1.8;
 }
 
-/* ===== Steps ===== */
-.steps-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 24px;
-}
-
-.step-card {
+/* ===== Infographic ===== */
+.infographic-container {
     text-align: center;
-    padding: 28px 16px;
-    background: var(--bg);
+}
+
+.infographic {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    margin: 0 auto;
     border-radius: var(--radius-lg);
-    border: 1px solid var(--border);
-}
-
-.step-number {
-    width: 40px;
-    height: 40px;
-    background: var(--primary);
-    color: #fff;
-    font-weight: 800;
-    font-size: 1.125rem;
-    border-radius: 50%;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 16px;
-}
-
-.step-card h3 {
-    font-size: 1rem;
-    margin-bottom: 8px;
-}
-
-.step-card p {
-    font-size: 0.875rem;
-    color: var(--text-light);
-    line-height: 1.6;
 }
 
 /* ===== Donate ===== */
@@ -519,11 +492,6 @@ a {
         padding: 60px 0;
     }
 
-    .steps-grid {
-        grid-template-columns: 1fr 1fr;
-        gap: 16px;
-    }
-
     .donate-tiers {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -550,7 +518,6 @@ a {
         font-size: 1.75rem;
     }
 
-    .steps-grid,
     .donate-tiers {
         grid-template-columns: 1fr;
     }
