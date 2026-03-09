@@ -227,15 +227,16 @@ a {
 
 /* ===== Infographic ===== */
 .infographic-container {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .infographic {
     width: 100%;
-    max-width: 900px;
+    max-width: 100%;
     height: auto;
-    margin: 0 auto;
-    border-radius: var(--radius-lg);
+    display: block;
 }
 
 /* ===== Donate ===== */
