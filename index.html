@@ -4,30 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Laundry Society | Clean Clothes for Every Child</title>
-    <meta name="description" content="The Laundry Society is a charity providing free laundry and dry cleaning services for children whose families can't afford it. Every child deserves clean clothes.">
+    <meta name="description" content="The Laundry Society provides free laundry and dry cleaning services for children whose families can't afford it.">
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar" id="navbar">
         <div class="container nav-container">
-            <a href="#" class="logo">
-                <span class="logo-icon">&#9784;</span>
-                The Laundry Society
-            </a>
+            <a href="#" class="logo">The Laundry Society</a>
             <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle menu">
                 <span></span>
                 <span></span>
                 <span></span>
             </button>
             <ul class="nav-links" id="nav-links">
-                <li><a href="#mission">Our Mission</a></li>
+                <li><a href="#mission">Mission</a></li>
                 <li><a href="#how-it-works">How It Works</a></li>
-                <li><a href="#impact">Our Impact</a></li>
-                <li><a href="#volunteer">Get Involved</a></li>
+                <li><a href="#contact">Contact</a></li>
                 <li><a href="#donate" class="btn btn-nav">Donate</a></li>
             </ul>
         </div>
@@ -37,66 +33,19 @@
     <header class="hero" id="hero">
         <div class="container hero-content">
             <h1>Every Child Deserves <span class="highlight">Clean Clothes</span></h1>
-            <p class="hero-subtitle">The Laundry Society provides free laundry and dry cleaning services for children whose families are struggling financially. Because no kid should feel left out because of what they're wearing.</p>
-            <div class="hero-actions">
-                <a href="#donate" class="btn btn-primary btn-lg">Donate Now</a>
-                <a href="#mission" class="btn btn-outline btn-lg">Learn More</a>
-            </div>
+            <p class="hero-subtitle">We provide free laundry and dry cleaning for children whose families can't afford it. Because no kid should feel left out because of what they're wearing.</p>
+            <a href="#donate" class="btn btn-primary btn-lg">Donate</a>
         </div>
     </header>
 
-    <!-- Stats Bar -->
-    <section class="stats-bar">
-        <div class="container stats-grid">
-            <div class="stat">
-                <span class="stat-number" data-target="5000">0</span>
-                <span class="stat-label">Children Helped</span>
-            </div>
-            <div class="stat">
-                <span class="stat-number" data-target="25000">0</span>
-                <span class="stat-label">Loads of Laundry</span>
-            </div>
-            <div class="stat">
-                <span class="stat-number" data-target="40">0</span>
-                <span class="stat-label">Partner Schools</span>
-            </div>
-            <div class="stat">
-                <span class="stat-number" data-target="200">0</span>
-                <span class="stat-label">Volunteers</span>
-            </div>
-        </div>
-    </section>
-
     <!-- Mission Section -->
     <section class="section" id="mission">
-        <div class="container">
-            <div class="section-header">
-                <h2>Our Mission</h2>
-                <p>Clean clothes aren't a luxury &mdash; they're a necessity.</p>
-            </div>
-            <div class="mission-grid">
-                <div class="mission-text">
-                    <p>For millions of families, the cost of laundry is a hidden burden. When parents have to choose between food and clean clothes, kids are the ones who suffer. They miss school, lose confidence, and face bullying.</p>
-                    <p><strong>The Laundry Society exists to change that.</strong> We partner with schools, community centers, and local dry cleaners to provide free laundry and dry cleaning services for children in need. Every child who walks through our doors leaves with fresh, clean clothes and a little more dignity.</p>
-                    <p>We believe something as simple as a clean shirt can change a child's entire day &mdash; and over time, their entire trajectory.</p>
-                </div>
-                <div class="mission-values">
-                    <div class="value-card">
-                        <div class="value-icon">&#9829;</div>
-                        <h3>Dignity</h3>
-                        <p>Every child deserves to feel confident and comfortable in what they wear.</p>
-                    </div>
-                    <div class="value-card">
-                        <div class="value-icon">&#9733;</div>
-                        <h3>Access</h3>
-                        <p>We remove financial barriers so clean clothes are available to all.</p>
-                    </div>
-                    <div class="value-card">
-                        <div class="value-icon">&#10003;</div>
-                        <h3>Community</h3>
-                        <p>We work alongside schools, cleaners, and volunteers to build local support networks.</p>
-                    </div>
-                </div>
+        <div class="container mission-container">
+            <h2>Our Mission</h2>
+            <div class="mission-text">
+                <p>For millions of families, the cost of laundry is a hidden burden. When parents have to choose between food and clean clothes, kids are the ones who suffer. They miss school, lose confidence, and face bullying.</p>
+                <p><strong>The Laundry Society exists to change that.</strong> We partner with schools, community centers, and local dry cleaners to provide free laundry and dry cleaning services for children in need. Every child who walks through our doors leaves with fresh, clean clothes and a little more dignity.</p>
+                <p>We believe something as simple as a clean shirt can change a child's entire day &mdash; and over time, their entire trajectory.</p>
             </div>
         </div>
     </section>
@@ -104,96 +53,27 @@
     <!-- How It Works -->
     <section class="section section-alt" id="how-it-works">
         <div class="container">
-            <div class="section-header">
-                <h2>How It Works</h2>
-                <p>A simple process that makes a big difference.</p>
-            </div>
+            <h2 class="section-heading">How It Works</h2>
             <div class="steps-grid">
                 <div class="step-card">
                     <div class="step-number">1</div>
                     <h3>Schools Identify Kids</h3>
-                    <p>Teachers and counselors discreetly identify students who need help with clean clothing, ensuring no child is singled out or embarrassed.</p>
+                    <p>Teachers and counselors discreetly identify students who need help with clean clothing.</p>
                 </div>
                 <div class="step-card">
                     <div class="step-number">2</div>
                     <h3>We Collect the Clothes</h3>
-                    <p>Our volunteers pick up laundry from schools and families on a regular schedule, making it easy and stigma-free for everyone involved.</p>
+                    <p>Our volunteers pick up laundry from schools and families on a regular schedule.</p>
                 </div>
                 <div class="step-card">
                     <div class="step-number">3</div>
                     <h3>Professional Cleaning</h3>
-                    <p>Partner dry cleaners and laundromats wash, dry, and press every item with care &mdash; treating each piece like their own.</p>
+                    <p>Partner dry cleaners wash, dry, and press every item with care.</p>
                 </div>
                 <div class="step-card">
                     <div class="step-number">4</div>
                     <h3>Fresh Clothes Returned</h3>
-                    <p>Clean, folded clothes are returned to the children within 48 hours. Ready to wear, ready to face the world with confidence.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Impact Section -->
-    <section class="section" id="impact">
-        <div class="container">
-            <div class="section-header">
-                <h2>Our Impact</h2>
-                <p>Real stories from real families.</p>
-            </div>
-            <div class="testimonial-grid">
-                <div class="testimonial-card">
-                    <div class="testimonial-quote">&ldquo;</div>
-                    <p>My son used to refuse to go to school because kids made fun of his clothes. Since The Laundry Society started helping us, he hasn't missed a single day. I can't thank them enough.</p>
-                    <div class="testimonial-author">
-                        <strong>Maria R.</strong>
-                        <span>Parent</span>
-                    </div>
-                </div>
-                <div class="testimonial-card">
-                    <div class="testimonial-quote">&ldquo;</div>
-                    <p>As a teacher, I've seen the difference clean clothes make. Kids participate more, smile more, and engage with their classmates. This program is genuinely life-changing.</p>
-                    <div class="testimonial-author">
-                        <strong>James T.</strong>
-                        <span>3rd Grade Teacher</span>
-                    </div>
-                </div>
-                <div class="testimonial-card">
-                    <div class="testimonial-quote">&ldquo;</div>
-                    <p>I joined as a volunteer last year and it's been one of the most rewarding things I've ever done. Seeing a kid's face when they get their clean clothes back &mdash; there's nothing like it.</p>
-                    <div class="testimonial-author">
-                        <strong>Priya K.</strong>
-                        <span>Volunteer</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Get Involved -->
-    <section class="section section-alt" id="volunteer">
-        <div class="container">
-            <div class="section-header">
-                <h2>Get Involved</h2>
-                <p>There are many ways to support our mission.</p>
-            </div>
-            <div class="involve-grid">
-                <div class="involve-card">
-                    <div class="involve-icon">&#128587;</div>
-                    <h3>Volunteer</h3>
-                    <p>Help us collect, sort, and deliver clothes. We need drivers, organizers, and friendly faces at our pickup and drop-off points.</p>
-                    <a href="#contact" class="btn btn-secondary">Sign Up</a>
-                </div>
-                <div class="involve-card">
-                    <div class="involve-icon">&#127978;</div>
-                    <h3>Partner With Us</h3>
-                    <p>Are you a dry cleaner or laundromat? Join our partner network and help provide free cleaning services for kids in your community.</p>
-                    <a href="#contact" class="btn btn-secondary">Become a Partner</a>
-                </div>
-                <div class="involve-card">
-                    <div class="involve-icon">&#128230;</div>
-                    <h3>Donate Supplies</h3>
-                    <p>We accept donations of detergent, fabric softener, hangers, and garment bags. Every little bit helps us serve more families.</p>
-                    <a href="#contact" class="btn btn-secondary">Learn More</a>
+                    <p>Clean, folded clothes are returned to the children within 48 hours.</p>
                 </div>
             </div>
         </div>
@@ -204,26 +84,36 @@
         <div class="container">
             <div class="donate-content">
                 <h2>Help a Child Feel Their Best</h2>
-                <p>Your donation goes directly to washing, drying, and pressing clothes for kids who need it most. Just $10 can clean an entire week's worth of clothes for one child.</p>
+                <p class="donate-subtitle">It costs about <strong>$20 per week</strong> to keep one child in clean clothes. Pick an amount or enter your own.</p>
+
                 <div class="donate-tiers">
-                    <div class="tier-card">
-                        <div class="tier-amount">$10</div>
-                        <p>1 child's laundry for a week</p>
-                    </div>
-                    <div class="tier-card featured">
-                        <div class="tier-amount">$40</div>
-                        <p>1 child's laundry for a month</p>
-                    </div>
-                    <div class="tier-card">
-                        <div class="tier-amount">$100</div>
-                        <p>3 children for a full month</p>
-                    </div>
-                    <div class="tier-card">
-                        <div class="tier-amount">$500</div>
-                        <p>A classroom for a semester</p>
+                    <button class="tier-card" data-amount="20">
+                        <div class="tier-amount">$20</div>
+                        <p>1 child for 1 week</p>
+                    </button>
+                    <button class="tier-card" data-amount="80">
+                        <div class="tier-amount">$80</div>
+                        <p>1 child for 1 month</p>
+                    </button>
+                    <button class="tier-card selected" data-amount="240">
+                        <div class="tier-amount">$240</div>
+                        <p>1 child for 3 months</p>
+                    </button>
+                    <button class="tier-card" data-amount="960">
+                        <div class="tier-amount">$960</div>
+                        <p>1 child for a full year</p>
+                    </button>
+                </div>
+
+                <div class="custom-amount-row">
+                    <label for="custom-amount">Or enter a custom amount:</label>
+                    <div class="custom-input-wrap">
+                        <span class="currency-symbol">$</span>
+                        <input type="number" id="custom-amount" min="1" placeholder="0">
                     </div>
                 </div>
-                <a href="#" class="btn btn-primary btn-lg donate-btn">Make a Donation</a>
+
+                <button id="checkout-btn" class="btn btn-primary btn-lg donate-btn">Donate <span id="checkout-amount">$240</span></button>
                 <p class="donate-note">The Laundry Society is a registered nonprofit. All donations are tax-deductible.</p>
             </div>
         </div>
@@ -232,10 +122,7 @@
     <!-- Contact Section -->
     <section class="section" id="contact">
         <div class="container">
-            <div class="section-header">
-                <h2>Contact Us</h2>
-                <p>Have questions or want to get involved? We'd love to hear from you.</p>
-            </div>
+            <h2 class="section-heading">Contact Us</h2>
             <div class="contact-grid">
                 <form class="contact-form" id="contact-form">
                     <div class="form-group">
@@ -247,18 +134,8 @@
                         <input type="email" id="email" name="email" required placeholder="you@example.com">
                     </div>
                     <div class="form-group">
-                        <label for="subject">I'm interested in...</label>
-                        <select id="subject" name="subject">
-                            <option value="general">General Inquiry</option>
-                            <option value="volunteer">Volunteering</option>
-                            <option value="partner">Becoming a Partner</option>
-                            <option value="donate">Donating Supplies</option>
-                            <option value="school">School Partnership</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
                         <label for="message">Message</label>
-                        <textarea id="message" name="message" rows="5" required placeholder="Tell us how you'd like to help..."></textarea>
+                        <textarea id="message" name="message" rows="5" required placeholder="How can we help?"></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary">Send Message</button>
                 </form>
@@ -271,14 +148,6 @@
                         <h3>Phone</h3>
                         <p>(555) 123-4567</p>
                     </div>
-                    <div class="contact-item">
-                        <h3>Follow Us</h3>
-                        <div class="social-links">
-                            <a href="#" aria-label="Facebook">Facebook</a>
-                            <a href="#" aria-label="Instagram">Instagram</a>
-                            <a href="#" aria-label="Twitter">Twitter</a>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -287,23 +156,12 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container footer-content">
-            <div class="footer-brand">
-                <span class="logo-icon">&#9784;</span>
-                <span>The Laundry Society</span>
-                <p>Clean clothes. Confident kids.</p>
-            </div>
-            <div class="footer-links">
-                <a href="#mission">Mission</a>
-                <a href="#how-it-works">How It Works</a>
-                <a href="#impact">Impact</a>
-                <a href="#volunteer">Get Involved</a>
-                <a href="#donate">Donate</a>
-                <a href="#contact">Contact</a>
-            </div>
+            <span class="footer-brand">The Laundry Society</span>
             <p class="footer-copy">&copy; 2026 The Laundry Society. All rights reserved.</p>
         </div>
     </footer>
 
+    <script src="https://js.stripe.com/v3/"></script>
     <script src="script.js"></script>
 </body>
 </html>
